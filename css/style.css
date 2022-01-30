@@ -1,0 +1,63 @@
+p {
+	color: chartreuse;
+}
+a mark {
+	color: yellowgreen;
+}
+span,
+mark {
+	color: chocolate;
+}
+.name {
+	color: crimson;
+}
+ul li {
+	color: black;
+	/* не действует на текст, потому что в li нет текста, текст в <а> */
+}
+ol li a {
+	color: yellow;
+}
+a {
+	color: red;
+	/* дейстсвует только на ссылки ul, на ссылки ol действует уточнение перед ним */
+}
+.roz {
+	color: cadetblue;
+}
+h2 {
+	color: purple;
+}
+.soderzh {
+	color: black;
+}
+h3 {
+	color: blueviolet;
+}
+.prob-paragr,
+.zer,
+#zer-zag,
+.zer-parag {
+	color: yellow;
+}
+#vzlom-zag,
+#ditya-zag {
+	color: orange;
+}
+.ditya .ditya-parag {
+	color: pink;
+}
+.ditya p {
+	color: black;
+	/* не действует: приоритет ниже, чемкласс в классе */
+}
+.zer-parag span {
+	color: tomato;
+}
+.prob-paragr.prob {
+	color: green;
+}
+
+[title="ft"] {
+	color: darkcyan;
+}
